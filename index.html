@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <link rel="shortcut icon" href="favicon-2.ico" type="image/x-icon">
+    <!---------------------- TAILWIND CSS CDN LINK ---------------------------------------->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- ----------------------------BOOTSTRP CDN LINK------------------------------ -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    
+</head>
+
+</head>
+
+<body class="bg-[#a9a9a9] flex justify-center">
+
+    <div class="border-2 border-black w-3/5  bg-white drop-shadow-2xl rounded-3xl mt-[2rem] mb-[2rem]">
+
+        <!-- --------------------------Heading part OF Website-------------------------- -->
+        <div class="flex p-4">
+            <h1 class="text-4xl font-semibold mr-3 relative ">Job Application</h1>
+            <span class="text-2xl font-semibold text-blue-500 relative top-1 ">(Web)</span>
+        </div>
+
+        <!-- -------------------------------Name and Last-Name section is there------- -->
+        <div class="flex justify-between">
+            <label class="ml-4" for="First_Name">
+                <p class="text-lg font-semibold">First Name</p>
+                <input class="border-[1px] border-black rounded-md w-[20rem] h-[2.25rem]" type="text" name=""
+                    id="First_Name">
+            </label>
+
+            <label class="mr-4" for="Last_Name">
+                <p class="text-lg font-semibold">Last Name</p>
+                <input class="border-[1px] border-black rounded-md w-[20rem] h-[2.25rem]" type="text" name=""
+                    id="Last_Name">
+            </label>
+        </div>
+
+        <!-- -------------------------------Email and Job-Role section is there------- -->
+        <div class="flex justify-between mt-3">
+            <label class="ml-4" for="Email">
+                <p class="text-lg font-semibold">Email</p>
+                <input class="border-[1px] border-black rounded-md w-[20rem] h-[2.25rem]" type="email" name=""
+                    id="Email">
+            </label>
+
+            <label class="mr-4" for="Job_Role">
+                <p class="text-lg font-semibold">Job Role</p>
+                <select class="border-[1px] border-black rounded-md w-[20rem] h-[2.25rem] bg-white p-1" id="Job_Role">
+                    <option>Select Job Role</option>
+                    <option>Full-satck developer</option>
+                    <option>Dev Developer</option>
+                    <option>Digital Marketing</option>
+                    <option>Front-end developer</option>
+                    <option>Back-end Developer</option>
+                </select>
+
+            </label>
+        </div>
+
+        <!-- -------------------------Addresss part OF Website---------------------- -->
+        <div class="mb-3 p-4">
+            <label for="exampleFormControlTextarea1" class="form-label">
+                <p class="text-lg font-semibold">Address</p>
+            </label>
+            <textarea class="form-control border-[1px] border-black" id="exampleFormControlTextarea1"
+                rows="3"></textarea>
+        </div>
+
+        <!-- ----------------------------------City and Pincode---------------------- -->
+        <div class="flex justify-between relative -top-8 p-2">
+            <label class="ml-4" for="City">
+                <p class="text-lg font-semibold">City</p>
+                <input class="border-[1px] border-black rounded-md w-[20rem] h-[2.25rem]" type="text" name="" id="City">
+            </label>
+
+            <label class="mr-4" for="Pincode">
+                <p class="text-lg font-semibold">Pincode</p>
+                <input class="border-[1px] border-black rounded-md w-[20rem] h-[2.25rem]" type="text" name=""
+                    id="Pincode">
+            </label>
+        </div>
+
+        <!---------------------------Start Date and Unpload Your CV--------------------- -->
+        <div class="flex justify-between relative -top-8 p-2">
+            <label class="ml-4" for="Start_Date">
+                <p class="text-lg font-semibold">Start Date</p>
+                <input class="border-[1px] border-black rounded-md w-[20rem] h-[2.25rem] p-2" type="date" name="date"
+                    value="2029-09-12" id="Start_Date">
+
+            </label>
+
+
+            <label for="Unpload_Your_CV">
+                <div class="">
+                    <p class="text-lg font-semibold">Upload Your CV</p>
+                    <input class="border-[1px] border-black rounded-md w-[20rem] h-[3rem] p-2" type="file"
+                        id="Unpload_Your_CV">
+
+
+                </div>
+            </label>
+        </div>
+
+        <!-- -----------------------------------------Apply Now Button---------------------------- -->
+        <div class="flex justify-end  mr-[3.5rem] mb-6">
+            <button class="border-2 border-black bg-red-600 rounded-lg p-1 text-white font-semibold" type="button">Apply
+                Now</button>
+        </div>
+
+    </div>
+</body>
+
+</html>
